@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFDBDB"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp">
+
+<!-- TODO: Update blank fragment layout -->
+
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="Only SMS with this word"
+    android:id="@+id/textView" />
+
+<EditText
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/etFrag2"
+    android:inputType="textPersonName" />
+
+
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Retrieve SMS"
+        android:id="@+id/btnRetrieveFrag2"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Email"
+        android:id="@+id/btnEmail2"
+        android:layout_weight="1" />
+
+</LinearLayout>
+
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/tvFrag2" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
